@@ -1,0 +1,160 @@
+* {
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    /* color: white; */
+  }
+  
+  body {
+    background: #0e0124;
+  }
+  
+  .wrapper {
+    height: 480px;
+    width: 360px;
+    color: white;
+    background: #000000;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 100px auto;
+    box-shadow: 6px 6px 8px rgb(0, 0, 0 ) , -6px -6px 8px rgb(5, 5, 5) , 2px 2px 3px rgb(255, 255, 255)  inset , -2px -2px 3px rgb(255, 255, 255) inset;
+    /* box-shadow:  */
+    border: 3px solid white;
+  }
+  .heading1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.9rem;
+    text-shadow: 1px 1px 4px black , -1px -1px 2px white;
+
+  }
+  
+  #topContainer {
+    margin-top: 2.5rem;
+  }
+  
+  .container {
+    margin-top: 1.4rem;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+  .titleBottom{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    margin-bottom: 0.1rem;
+    text-align: center;
+  }
+  .titleBottom1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+    text-align: center;
+  }
+  
+  .inputContainer {
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px rgb(0, 0, 0) inset, -1px -1px 2px rgb(0, 0, 0) inset;
+    color: black;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid rgb(0, 0, 0);
+   
+  }
+  
+  #billTotalInput,
+  #tipInput {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+  }
+  .buttonContainerIncrement {
+    background: #ffffff;
+    display: grid;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 0 99% 99% 0;
+  }
+  
+  .buttonContainerDecrement {
+    background: #ffffff;
+    display: grid;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 90% 0 0 90%;
+  }
+ 
+  .splitButton {
+    background: none;
+    border: none;
+    
+  }
+  .splitButton:hover{
+    cursor: pointer;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .splitButton {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+  }
+  
+  .buttonText {
+    color: #000000 !important;
+    font-weight: bolder;
+  }
+  
+  .splitAmount {    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    margin: 0.8rem;
+  }
+  
+  #bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .totalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .totalContainer1{
+    margin-top: 0.8rem;
+    text-align: center;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+ 
+  #perPersonTotal{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  #totalBillAmount{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
