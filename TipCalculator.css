@@ -1,28 +1,30 @@
-* {
-    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
-    /* color: white; */
-  }
-  
-  body {
-    background: #0e0124;
+  body{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(./Images/library-g210856843_1920.jpg);
+    background-position: center;
+    background-size: cover;
+   
   }
   
   .wrapper {
-    height: 480px;
+    height: 530px;
     width: 360px;
     color: white;
-    background: #000000;
+    /* background: rgb(0, 0, 0 , .7); */
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(./Images/robo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     border-radius: 1rem;
     padding: 1.2rem;
-    margin: 100px auto;
+    margin: 35px auto auto auto;
     box-shadow: 6px 6px 8px rgb(0, 0, 0 ) , -6px -6px 8px rgb(5, 5, 5) , 2px 2px 3px rgb(255, 255, 255)  inset , -2px -2px 3px rgb(255, 255, 255) inset;
-    /* box-shadow:  */
+    /* box-shadow:  */  
     border: 3px solid white;
   }
   .heading1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.9rem;
+    font-size: 2rem;
     text-shadow: 1px 1px 4px black , -1px -1px 2px white;
 
   }
@@ -73,6 +75,7 @@
   #tipInput {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.4rem;
+    height: 35px;
     background: none;
     border: none;
     outline: none;
@@ -85,6 +88,8 @@
     width: 1.6rem;
     height: 1.6rem;
     border-radius: 0 99% 99% 0;
+    box-shadow: -3px -3px 4px black  , 3px 3px 4px black;
+
   }
   
   .buttonContainerDecrement {
@@ -94,6 +99,7 @@
     width: 1.6rem;
     height: 1.6rem;
     border-radius: 90% 0 0 90%;
+    box-shadow: -3px -3px 4px black  , 3px 3px 4px black;
   }
  
   .splitButton {
@@ -141,7 +147,7 @@
   }
 
   .totalContainer1{
-    margin-top: 0.8rem;
+    margin-top: 0.6rem;
     text-align: center;
     flex-direction: column;
     align-items: end;
@@ -156,5 +162,23 @@
   #totalBillAmount{
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
+  }
+  #finish{
+    background-color: white;
+    color: black;
+    margin-top: 5%;
+    margin-left: 38%;
+    height: 2.2rem;
+    width:  5.3rem;
+    border-radius: 30px;
+    box-shadow: -2px -2px 4px black  , 2px 2px 4px black;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  #finish:hover{
+    cursor: pointer;
   }
   
